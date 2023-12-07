@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#basketdiv{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    p{
+        font-size: 20px;
+        color: $second-color;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .removebtn{
+            background-color: #E61C5D;
+            border: none;
+            padding: 10px;
+            font-size: 20px;
+            border-radius: 50px;
+            color: $main-color;
+    }
+}
